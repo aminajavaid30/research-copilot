@@ -2,8 +2,6 @@ streamlit
 uvicorn
 fastapi
 agno
-groq
-openai
 requests
 arxiv
 pypdf
