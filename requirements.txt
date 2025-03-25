@@ -10,5 +10,4 @@ pypdf
 sqlalchemy
 reportlab
 html2text
-lancedb
 pymupdf
