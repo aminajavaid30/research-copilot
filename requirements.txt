@@ -1,0 +1,14 @@
+streamlit
+uvicorn
+fastapi
+agno
+groq
+openai
+requests
+arxiv
+pypdf
+sqlalchemy
+reportlab
+html2text
+lancedb
+pymupdf
