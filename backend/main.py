@@ -15,10 +15,6 @@ class ResearchRequest(BaseModel):
     topic: str  # Research topic to fetch papers for
     max_papers: int = 5  # Default number of papers to fetch
 
-# Define request model for chat interactions
-class ChatRequest(BaseModel):
-    message: str  # User message to interact with the chat agent
-
 @app.post("/fetch_papers/")
 async def fetch_papers(request: ResearchRequest):
     """
